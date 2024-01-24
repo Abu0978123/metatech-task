@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.flex-shrink-0 h1{
+    color: white;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.container h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contactus {
+    min-height: 100px !important;
+}
+
+.navbar {
+    height: 90px;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+}
+.edu{
+    border: 1px solid rgb(15, 222, 230);
+    border-radius: 6px;
+}
+.picture{
+    margin-top: 15px;
+    max-width: 700px;
+    padding: 8px;
+    border: gray .4px solid;
+    height: 320px;
+    border-radius: 6px;
+    
+    
+}
+.picture img{
+    width: 700px;
+    height: 300px;
+   
+}
+
+.arrow{
+    background: white;
+    border-radius: 30px;
+    top: 150px;
+    right: -24px;
+    color: blue;
+    border: white solid 1px;
+   
+    
+}
+
+footer li {
+    padding-bottom: 15px;
+}
+
+.newsletter{
+    min-height: 400px;
+}
+
+.newsletter input {
+    width: 600px;
+    outline: none;
+    border: 1px solid rgb(12, 107, 223);
+    border-radius: 5px;
+}
+
+.newsletter img {
+    border-radius: 160px;
+}
+
+.doctor {
+    top: 40px;
+    left: 44px;
+    color: blue;
+    position: absolute;
+    opacity: 0.2;
+    font-size: 80px;
+}
+
+.plus{
+    bottom: -38px;
+    right: 44px;
+    position: absolute;
+    color: blue;
+    opacity: 0.2;
+    font-size: 80px;
+}
